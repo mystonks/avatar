@@ -14,7 +14,7 @@ let imageSize = parseInt(imageSizeInput.value);
 let useBackgroundImage = useBgCheckbox.checked;
 let backgroundColor = bgColorPicker.value;
 let backgroundImage = new Image();
-backgroundImage.src = './img/bg.png'; // 背景图路径
+backgroundImage.src = './img/bg.png'; // 背景图路
 
 // 添加背景图片选择功能
 document.querySelectorAll('.bg-option').forEach(option => {
